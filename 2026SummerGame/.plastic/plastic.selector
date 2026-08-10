@@ -1,0 +1,4 @@
+repository "2026SummerGame 2026-08-10_16-07-14/2026SummerGame@15669163864902@cloud"
+  path "/"
+    br "/main"
+    co "/main"
