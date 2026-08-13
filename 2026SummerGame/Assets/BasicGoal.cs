@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,6 +26,7 @@ public abstract class BasicGoal : MonoBehaviour
         {
             isCleared = true;
             Goal();
+            Debug.Log("Goal!");
         }
     }
 
@@ -38,6 +40,6 @@ public abstract class BasicGoal : MonoBehaviour
     /// </summary>
     protected virtual void Goal()
     {
-        SceneManager.LoadScene(stageSelectSceneName);
+        SceneManager.LoadScene("StageSelectScene");
     }
 }
